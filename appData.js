@@ -11,7 +11,7 @@ import Zuri from './assets/zuri.jpg';
 import i4g from './assets/i4g.jpg';
 
 export const appData = {
-  name: 'Utibeabasi Umanah',
+  name: 'Emmanuel Ibok',
   description: 'DevOps Engineer',
   image: Profile,
   Pattern: Pattern,
@@ -22,7 +22,12 @@ export const appData = {
 
 export const about = {
   title: 'Profile',
-  text: 'Utibeabasi Umanah is a DevOps engineer with Fullstack developer experience. He is passionate about integrating DevOps culture to automate the developer workflow',
+  text: 'Emmanuel is a Versatile DevOps/SRE/Cloud engineer with 3 years of experience. Seeking to leverage
+proven continuous integration/continuous deployment skills to raise quality at
+Hyperhire . Cut customer compliants by 50% for an saas, application. At
+landmarktech inc., used Jenkins,Aws,Kubernetes,Docker and Monitoring tools to
+slash release time by 20%. Boosted customer satisfaction by 25%.
+TECHNICAL SKILL',
 };
 
 export const experience = {
@@ -55,7 +60,7 @@ export const experience = {
       year: '2021',
       duties: [
         'Configure and manage servers',
-        'Build and maintain resilient CI/CD pipelines that can handle hndreds of developers pushing code',
+        'Build and maintain resilient CI/CD pipelines that can handle hundreds of developers pushing code',
         'Cut down build duration by offloading the build process to a seperate server',
         'Manage the build and release of applications for 3 teams'
       ],
@@ -72,7 +77,7 @@ export const experience = {
 };
 
 export const projects = {
-  title: 'Personal Projects',
+  title: 'Group Projects',
   data: [
     {
       title: 'Online store',
@@ -81,15 +86,15 @@ export const projects = {
       stack: ['django', 'Postgres'],
     },
     {
-      title: 'Personal Portfolio',
-      description: 'My personal website',
+      title: 'Group Portfolio',
+      description: 'Team lead website',
       url: 'https://utibeumanah.herokuapp.com',
       stack: ['django'],
     },
     {
       title: 'Personal blog',
       description: 'My personal blog where I write about DevOps and Tech',
-      url: 'https://utibeabasiumanah6.medium.com/',
+      url: 'https://emmanuelibok505.medium.com/',
       stack: ['Technical writing'],
     },
   ],
@@ -102,20 +107,20 @@ export const contact = {
   details: [
     {
       icon: HiOutlineMail,
-      data: 'mailto:utibeabasiumanah6@gmail.com',
+      data: 'ibokemmanuel17@gmail.com',
     },
   ],
   socials: [
     {
-      url: 'https://github.com/utibeabasi6',
+      url: 'https://github.com/Emmylong1',
       icon: FiGithub,
     },
     {
-      url: 'https://linkedin.com/in/utibeabasiumanah',
+      url: 'linkedin.com/in/emmanuel-ibok-2a7a6a23b',
       icon: RiLinkedinLine,
     },
     {
-      url: 'https://twitter.com/utibeumanah_',
+      url: 'emmanue47423581',
       icon: FiTwitter,
     },
   ],
@@ -125,14 +130,14 @@ export const education = {
   title: 'Education',
   data: [
     {
-      degree: 'B.Sc Computer engineering',
-      school: 'University of Uyo',
-      year: '2020 - Present',
+      degree: 'B.Sc Electronic and Computer Technology',
+      school: 'University of Calabar',
+      year: '2016 - 2021',
     },
     {
       degree: 'SSCE',
-      school: 'Bright Future College',
-      year: '2014 - 2020',
+      school: 'Federal Government College',
+      year: '2006 - 2012',
     },
   ],
 };
@@ -146,7 +151,7 @@ export const skills = {
     },
     {
       title: 'Cloud',
-      data: ['AWS', 'Heroku'],
+      data: ['AWS', 'Linode'],
     },
     {
       title: 'Linux',
@@ -154,7 +159,7 @@ export const skills = {
     },
     {
       title: 'CI/CD',
-      data: ['Git', 'Github actions', 'AWS CodePipeline', 'Jenkins'],
+      data: ['Git', 'Github actions', 'Sonarqube', 'Nexus', 'AWS CodePipeline', 'Jenkins'],
     },
     {
       title: 'Containerization / Orchestration',
@@ -162,7 +167,7 @@ export const skills = {
     },
     {
       title: 'Monitoring / Logging',
-      data: ['Prometheus/Grafana', 'Freshping', 'ELK', 'Slack'],
+      data: ['Prometheus/Grafana', 'NewRelic', 'ELK', 'Slack'],
     },
     {
       title: 'Fullstack development',
@@ -172,5 +177,5 @@ export const skills = {
 };
 
 export const footer = {
-  copyright: ' 2021 Utibeabasi Umanahß',
+  copyright: ' 2021 Emmauel Ibok1',
 };
